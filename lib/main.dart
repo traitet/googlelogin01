@@ -60,6 +60,9 @@ class _MyAppState extends State<MyApp> {
         //============================================================================          
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            //============================================================================
+            // SHOW PICTURE, DISPLAY NAME, EMAIL
+            //============================================================================               
             Image.network(_googleSignIn.currentUser.photoUrl,height: 50.0,width:50.0,),
             Text(_googleSignIn.currentUser.displayName),
             Text(_googleSignIn.currentUser.email),            
